@@ -65,10 +65,9 @@ widthとheightで線の長さと高さを設定
   transform: translateY(3px);
 }
 
-/*-------------------------------------------
-header
--------------------------------------------*/
-/*
+
+/*header*/
+
 「position: fixed;」でヘッダーを固定し、「z-index: 10;」で前面に表示
 ※他のコンテンツでpositionをrelative、absolute、fixedのいずれかに
 設定している場合は、z-indexの数値が大きい方が前面に表示される
@@ -107,9 +106,9 @@ inline-blockを設定している
   padding: 10px 60px 10px 0;
 }
 
-/*-------------------------------------------
-pickup
--------------------------------------------*/
+
+/*pickup*/
+
 #pickup {
   display: flex;
   justify-content: space-between;
@@ -124,9 +123,9 @@ pickup
   margin: 10px 0 15px 0;
 }
 
-/*-------------------------------------------
-container
--------------------------------------------*/
+
+/*container*/
+
 #container {
   display: flex;
   justify-content: space-between;
@@ -155,9 +154,8 @@ main .text {
   padding: 10px 40px 30px 40px;
 }
 
-/*-------------------------------------------
-aside
--------------------------------------------*/
+/*aside*/
+
 #sidebar {
   width: 33%;
   padding: 20px;
@@ -207,9 +205,8 @@ aside
   text-align: left;
 }
 
-/*-------------------------------------------
-footer
--------------------------------------------*/
+/*footer*/
+
 #footer {
   font-size: 0.875rem;
   background-color: #f7f7f7;
