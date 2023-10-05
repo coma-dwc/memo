@@ -1,3 +1,14 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // フォームが送信された場合の処理をここに記述します
+    $name = $_POST["your-name"];
+    $email = $_POST["your-email"];
+    $message = $_POST["your-message"];
+
+    // ここでフォームデータを処理するロジックを追加します（データベースへの書き込み、メールの送信など）
+}
+?>
+
 <!DOCTYPE html>
 <html lnag="ja">
   <head>
@@ -82,7 +93,8 @@
 
       <section id="contact" class="wrapper">
         <h2 class="sec-title">Contact</h2>
-        <form action="#" method="post">
+        <!--フォーム部分-->
+        <form method="post" action="/memo/lp/php/confirm.php">
           <dl>
             <dt><label for="name">NAME</label></dt>
             <dd><input type="text" id="name" name="your-name"></dd>
